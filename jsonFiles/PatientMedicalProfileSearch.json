@@ -1,0 +1,251 @@
+"ContactCard": {
+
+"PatientName": "John Smith",
+"PatientLastName": "Smith",
+"DOB": "1999-03-24T00:00:00",
+"Phone": "999-999-9999",
+"CellPhone": "",
+"WorkPhone": "",
+"Email": "",
+"Gender": "Female",
+"EmergencyContact": "Jean Smith",
+"EmergencyContactPhone": "",
+"Address": {
+
+"Street1": "9999 NE 9th Ave",
+"Street2": null,
+"City": "Pompano Beach",
+"State": "FL",
+"Zip": 99999
+
+},
+
+"PrimaryInsurance": {
+
+"ID": 1,
+"Number": 9999,
+"Payor": "UHC UnitedHealthcare (10)",
+"PolicyNumber": 999999999,
+"GroupNumber": 999999,
+"PayorType": null,
+"PayorContact": null,
+"PayorAddress": null,
+"PayorPhone": null,
+"PayorFax": null,
+"StartDate": null,
+"StopDate": null
+
+},
+
+"PrimaryPhysician": "Giovana Thomas, MD",
+"PrimaryPhysicianPhone": "999-999-9999",
+"PrimaryPhysicianFax": "999-999-9999",
+"SalesRep": "Ralph Culmer",
+"SalesRepEmail": null,
+"TherapyID": 999,
+"Therapy": "Enteral",
+"TherapyCategory": "Enteral",
+"PatientStatus": "Active",
+"SiteID": 28,
+"Site": "Davie",
+"SOC": "2017-11-26T00:00:00",
+"PrimaryRN": "Triaged to Agency",
+"PrimaryRNPhone": "",
+"PrimaryRNEmail": null,
+"InsuranceCoordinator": "Krystine Toth, 28",
+"InsuranceCoordinatorEmail": null,
+"ReferralDate": "2017-11-24T15:32:32",
+"ReferralSource": "",
+"Allergies": "No Known Drug Allergy",
+"Diagnosis": [
+
+"",
+"",
+""
+
+],
+"Balance": null,
+"ICD9": "",
+"LatestShipment": {
+
+"TrackingNumber": 9999999999,
+"ExpectedDelivery": "2017-11-29T17:00:00",
+"Carrier": "MSD Direct",
+"ServiceType": "Priority Overnight"
+
+},
+
+"BillingAlert": "*** Plan Description - CHOICE PLUS\r\n\r\n*** *** Bill RN/PD/Drugs/Supplies to MM\r\nPA req. for ALL HIT. vlr 11/27/2017\r\n\r\n\r\n",
+"PatientAlert": "11/27/17- UHC Choice plan. 60 Nsg visits per year. Amie B.",
+"Language": "English",
+"NPI": 1770507873,
+"NurseCoordinator": null,
+"NurseCoordinatorEmail": null,
+"CareTeamID": 0,
+"CareTeam": null
+
+},
+
+"Orders": [{
+
+"ID": 999999999,
+"Number": 1,
+"Name": "Vivonex Plus",
+"Strength": 1,
+"Unit": "EA",
+"Frequency": "Every 4 Hours",
+"Description": "Vivonex Plus 1 EA ENT Every 4 Hours",
+"OrderDate": "2017-11-25T13:26:00.287",
+"StartDate": "2017-11-25T13:26:00.287",
+"StopDate": null,
+"LastFillDate": "2017-11-25T00:00:00",
+"NextFillDate": "2018-03-01T00:00:00",
+"NextInfusionDate": null,
+"ReferralDate": null,
+"PrimaryFlag": "P",
+"RxNo": 280184592,
+"IsBilled": false,
+"Therapy": null,
+"RxStatus": null,
+"RxType": "ENTERAL",
+"PayorName": null,
+"PayorNotes": null,
+"PayorType": null,
+"MRN": null,
+"ReferralStatus": null,
+"ReferralSource": null,
+"ReferralRN": 0,
+"NPI": null,
+"ExternalID": null,
+"Rank": null
+}],
+
+"Insurance": {
+
+"Waiver": null,
+"Assistance": null,
+"Payors": [{
+
+"ID": 8951,
+"Number": 1,
+"Payor": "UHC UnitedHealthcare (10)",
+"PolicyNumber": 999999999,
+"GroupNumber": 999999,
+"PayorType": "Commercial",
+"PayorContact": "Claims",
+"PayorAddress": {
+"Street1": "",
+"Street2": null,
+"City": "",
+"State": "",
+"Zip": ""
+
+},
+
+"PayorPhone": "999-999-9999",
+"PayorFax": "999-999-9999",
+"StartDate": "2017-01-01T00:00:00",
+"StopDate": null
+
+}]
+
+},
+
+"Physicians": [{
+
+"Name": "Giovana Thomas, MD",
+"Id": null,
+"Speciality": "Otolaryngology",
+"Phone": "999-999-9999",
+"Fax": "999-999-9999",
+"Address": {
+
+"Street1": "9999 NW 10 AVE, BOX 016960 (M851)",
+"Street2": "",
+"City": "Miami",
+"State": "FL",
+"Zip": 99999
+
+}
+
+}],
+
+"Contacts": [{
+
+"FirstName": "Jean",
+"LastName": "Smith",
+"FullName": null,
+"Email": "",
+"ADID": null,
+"DOB": "9999-01-01T00:00:00",
+"Gender": null,
+"SSN": null,
+"Addresses": {
+
+"Default": {
+
+"Street1": "",
+"Street2": null,
+"City": "",
+"State": "",
+"Zip": ""
+
+}
+
+},
+"Contacts": null,
+"Phone": "",
+"TeamName": null,
+"DistinguishedName": null,
+"Title": null,
+"Manager": null,
+"Location": null,
+"DisplayName": null
+
+}],
+
+"Diagnosis": [{
+
+"id": 999999,
+"num": 1,
+"code": "C320",
+"desc": "Malignant neoplasm of glottis"
+
+}],
+
+"SOCOrders": [{
+
+"ID": ,
+"Number": 1,
+"Name": "Vivonex Plus",
+"Strength": 1,
+"Unit": "EA",
+"Frequency": "Every 4 Hours",
+"Description": "Vivonex Plus 1 EA ENT Every 4 Hours",
+"OrderDate": "2017-11-25T13:26:00.287",
+"StartDate": "2017-11-25T13:26:00.287",
+"StopDate": null,
+"LastFillDate": "2017-11-25T00:00:00",
+"NextFillDate": "2018-03-01T00:00:00",
+"NextInfusionDate": null,
+"ReferralDate": null,
+"PrimaryFlag": "P",
+"RxNo": 280184592,
+"IsBilled": false,
+"Therapy": "Enteral",
+"RxStatus": "Active",
+"RxType": "ENTERAL",
+"PayorName": "UHC UnitedHealthcare (10)",
+"PayorNotes": "UHC ppoOne NDC payer EFFECTIVE 2/1/16\r\n",
+"PayorType": "Commercial",
+"MRN": null,
+"ReferralStatus": null,
+"ReferralSource": null,
+"ReferralRN": 0,
+"NPI": null,
+"ExternalID": null,
+"Rank": null
+
+}]
+
+}

@@ -1,0 +1,11 @@
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/bin/Debug/netcoreapp2.2/TestingSystemIO.deps.json
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/bin/Debug/netcoreapp2.2/TestingSystemIO.runtimeconfig.json
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/bin/Debug/netcoreapp2.2/TestingSystemIO.runtimeconfig.dev.json
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/bin/Debug/netcoreapp2.2/TestingSystemIO.dll
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/bin/Debug/netcoreapp2.2/TestingSystemIO.pdb
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.csprojAssemblyReference.cache
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.csproj.CoreCompileInputs.cache
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.AssemblyInfoInputs.cache
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.AssemblyInfo.cs
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.dll
+/Users/nbarrio4/Documents/Personal/Testing/TestingSystemIO/obj/Debug/netcoreapp2.2/TestingSystemIO.pdb
