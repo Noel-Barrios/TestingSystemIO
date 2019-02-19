@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using Newtonsoft.Json.Linq;
 
 
 namespace testingSystemIO
@@ -25,8 +26,22 @@ namespace testingSystemIO
             {
                 Console.WriteLine("The file exists!" + Environment.NewLine);
                 string stringifiedJSON = File.ReadAllText(path2);
-                Console.WriteLine(stringifiedJSON);
+                //Console.WriteLine(stringifiedJSON);
 
+                var objects = JArray.Parse(stringifiedJSON);
+                foreach (JObject root in objects)
+                {
+                    foreach(KeyValuePair<String, JToken> app in root)
+                    {
+                        var appName = app.Key;
+                        var description = (String)app.Value["Description"];
+                        var value = (String)app.Value["Value"];
+                        Console.WriteLine(appName);
+                        Console.WriteLine(description);
+                        Console.WriteLine(value);
+                        Console.WriteLine(Environment.NewLine);
+                    }
+                }
 
             }
 
